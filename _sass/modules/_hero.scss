@@ -4,7 +4,8 @@
 
 .hero {
 	height: 335px;
-	background: url('https://www.flickr.com/gp/134291749@N08/7V8059');
+	background: url('#{$path--rel}/bg-main.jpg'),
+	            linear-gradient(#75da8f, #77cae9);
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-bottom: em(50px);
