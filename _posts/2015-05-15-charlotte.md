@@ -1,5 +1,5 @@
 ---
-title:  "My First Post"
+title:  "Charlotte, NC"
 categories: sample
 image: feat-img.jpg
 ---
