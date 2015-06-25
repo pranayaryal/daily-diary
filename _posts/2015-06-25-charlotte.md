@@ -1,7 +1,6 @@
 ---
-title:  "My First Post"
-categories: sample
-image: feat-img.jpg
+title:  "Charlotte, North Carolina"
+image: orlando.jpg
 ---
 
 Hi there. This will be your first blog post&mdash;I hope you're excited! To get started, give this post a new title by replacing "My First Post" with your post's title. 
