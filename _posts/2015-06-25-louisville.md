@@ -1,5 +1,4 @@
-title:  "Louisville, KY"
-categories: sample
+title:  "Louisville, Kentucky"
 image: feat-img.jpg
 ---
 
