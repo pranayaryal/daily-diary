@@ -1,6 +1,5 @@
 
 title:  "Louisville, KY"
-categories: sample
 image: feat-img.jpg
 ---
 
