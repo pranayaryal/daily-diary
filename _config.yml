@@ -1,7 +1,7 @@
 # Site settings
-title: Travel Blog
+title: Daily Diary
 email: funTravel@gmail.com
-description: A fun blog about travelling.
+description: A fun blog everyday diary.
 baseurl: "/daily-diary"
 twitter_username: pranayaryal
 avatar: "" # Set footer avatar
