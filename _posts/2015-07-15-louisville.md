@@ -1,4 +1,3 @@
-
 ---
 title:  "Louisville, KY"
 ---
