@@ -2,7 +2,7 @@
 title: Travel Blog
 email: funTravel@gmail.com
 description: A fun blog everyday diary.
-baseurl: "/daily-diary"
+baseurl: "/travel-blog"
 twitter_username: pranayaryal
 avatar: "" # Set footer avatar
 paginate: 3
