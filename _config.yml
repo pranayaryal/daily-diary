@@ -2,7 +2,7 @@
 title: Travel Blog
 email: drpranayaryal@gmail.com
 description: A fun blog about travelling.
-baseurl: "/travel-blog"
+baseurl: "/daily-diary"
 twitter_username: pranayaryal
 avatar: "" # Set footer avatar
 paginate: 3
