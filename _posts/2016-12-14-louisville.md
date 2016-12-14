@@ -6,10 +6,11 @@ A blog about how to use Vue components in Laravel 5.3
 
 In the */resources/assets/js/components/* directory, you can create a new .vue file. For example, I created a Task.vue file which has this code:
 
-    <template>
-      <li><slot></slot></li>
-    </template>
-
+{% highlight ruby %}
+<template>
+  <li><slot></slot></li>
+</template>
+{% endhighlight %}
 
 I created another .vue file in the components directory and called it TaskList.vue. The code that is there is:
 
