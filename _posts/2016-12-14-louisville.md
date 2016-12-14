@@ -79,4 +79,4 @@ Here is my blade file which uses the component
 </div>
 {% endhighlight %}
 
-[Final Output](../../img/Screenshot from 2016-12-14 15-04-06.png){:class="img-responsive"}
+[Final Output]('../../img/Screenshot from 2016-12-14 15-04-06.png'){:class="img-responsive"}
