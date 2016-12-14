@@ -78,4 +78,4 @@ Here is my blade file which uses the component
 </div>
 {% endhighlight %}
 
-
+{% include image name="linkedin-before.png" caption="Sharing my blog on LinkedIn" %}
