@@ -79,3 +79,4 @@ Here is my blade file which uses the component
 </div>
 {% endhighlight %}
 
+After this I ran gulp inside the Homestead virtualbox and finally got this output.
