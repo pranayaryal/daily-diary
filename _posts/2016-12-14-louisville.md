@@ -78,4 +78,4 @@ Here is my blade file which uses the component
 </div>
 {% endhighlight %}
 
-{% include image name="Screenshot from 2016-12-14 15-04-06.png" caption="Here is the output" %}
+['Final Output'](/path/to/image.jpg){:class="img-responsive"}
