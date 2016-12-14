@@ -61,7 +61,6 @@ require('./bootstrap');
  * the application, or feel free to tweak this setup for your needs.
  */
 
-Vue.component('checkout-form', require('./components/CheckoutForm.vue'));
 Vue.component('task', require('./components/Task.vue'));
 Vue.component('task-list', require('./components/TaskList.vue'));
 
