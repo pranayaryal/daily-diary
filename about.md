@@ -3,4 +3,4 @@ title: About
 permalink: /about/
 ---
 
-This is a very simple family blog
+I am a web developer who use PHP's Laravel framework. I also like analyzing data using R and Python.
