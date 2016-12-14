@@ -1,6 +1,5 @@
 ---
 title:  "Using nested Vue components in Laravel 5.3"
-img: "Screenshot from 2016-12-14 15-04-06.png"
 ---
 
 A blog about how to use Vue components in Laravel 5.3
