@@ -15,7 +15,7 @@ I created another .vue file in the components directory and called it TaskList.v
 
 {% highlight ruby %}
 <template>
-    <div><task v-for="task in tasks">{{ task.task }}</task></div>
+    <div> <task v-for="task in tasks">{{ task.task }}</task> </div>
 </template>
 
 <script>
