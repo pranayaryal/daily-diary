@@ -68,3 +68,13 @@ const app = new Vue({
 });
 
 {% endhighlight %}
+
+Here is my blade file which uses the component
+
+{% highlight ruby %}
+<div id="app">
+    <task-list></task-list>
+</div>
+{% endhighlight %}
+
+
