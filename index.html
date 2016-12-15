@@ -14,7 +14,7 @@ layout: default
             <b class="post__sep">•</b>
             <b class="post__date">{{ post.date | date: "%b %-d, %Y" }}</b>
           </div>
-          {{ post.excerpt }}<br>
+          {{ post.excerpt }}
           <a class="btn--default" href="{{ post.url | prepend: site.baseurl }}">Read more</a>
         </li>
       {% endfor %}
