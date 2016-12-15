@@ -1,3 +1,3 @@
-# confs-theme
+# Daily Diary
 
-The theme files for the WebConfs blog.
+My blog posts
