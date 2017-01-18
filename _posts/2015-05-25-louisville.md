@@ -2,4 +2,4 @@
 title:  "Using angucomplete, an angular autocomplete for dropdowns"
 ---
 
-We 
+I will try to show how I used angucomplete to make an ajax call 
