@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Predicting Housing Price (Boston Housing Dataset)"
-
+image: histPrice.png
 ---
 
 This dataset is from scikit-learn library of python. I have used Decision Tree Regressor to decide on the home price. The various features in the dataset used to predict price are:
@@ -28,8 +28,3 @@ Let's do some exploratory data analysis.
 
 Let's look at a histogram of the house price for the training set.
 
----
-
-image: histPrice.png
-
----
