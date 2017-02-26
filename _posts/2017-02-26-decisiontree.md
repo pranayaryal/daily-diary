@@ -22,7 +22,7 @@ This dataset is from scikit-learn library of python. I have used Decision Tree R
 10. TAX:     full-value property-tax rate per $10,000        
 11. PTRATIO: pupil-teacher ratio by town        
 12. B:       1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town        
-18. LSTAT:   percentage of lower status of the population        
+13. LSTAT:   percentage of lower status of the population        
 
 The target variable is the price of the house.
 
