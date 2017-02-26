@@ -5,7 +5,9 @@ title:  "Predicting Housing Price (Boston Housing Dataset)"
 ---
 
 This dataset is from scikit-learn library of python. I have used Decision Tree Regressor to decide on the home price. The various features in the dataset used to predict price are:
-1. CRIM     per capita crime rate by town\n        
+
+
+1. CRIM     per capita crime rate by town       
 2. ZN       proportion of residential land zoned for lots over 25,000 sq.ft.
 3. INDUS    proportion of non-retail business acres per town
 4. CHAS     Charles River dummy variable (= 1 if tract bounds river; 0 otherwise)
