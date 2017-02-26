@@ -20,3 +20,5 @@ This dataset is from scikit-learn library of python. I have used Decision Tree R
 11. PTRATIO  pupil-teacher ratio by town        
 12. B        1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town        
 18. LSTAT    % lower status of the population        
+
+The target variable is the price of the house
