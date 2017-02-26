@@ -27,3 +27,9 @@ We will first split the data into training and test sets. We will train our algo
 Let's do some exploratory data analysis. 
 
 Let's look at a histogram of the house price for the training set.
+
+---
+
+image: histPrice.png
+
+---
