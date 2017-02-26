@@ -21,4 +21,6 @@ This dataset is from scikit-learn library of python. I have used Decision Tree R
 12. B        1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town        
 18. LSTAT    % lower status of the population        
 
-The target variable is the price of the house
+The target variable is the price of the house.
+
+Let's do some exploratory data analysis.
