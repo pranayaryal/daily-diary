@@ -4,8 +4,8 @@ title:  "Predicting Housing Price (Boston Housing Dataset)"
 image: histPrice.png
 ---
 
-This dataset is from scikit-learn library of python. I have used Decision Tree Regressor to decide on the home price. The various features in the dataset used to predict price are:
-
+This dataset is from scikit-learn library of python. We wil use various techniques for linear regression. We will use the Ridge Regression
+and Lasso and compare them
 
 1. CRIM:     per capita crime rate by town       
 2. ZN:       proportion of residential land zoned for lots over 25,000 sq.ft.
