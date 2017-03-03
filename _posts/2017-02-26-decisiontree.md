@@ -23,8 +23,9 @@ This dataset is from scikit-learn library of python. I have used Decision Tree R
 
 The target variable is the price of the house.
 
-We will first split the data into training and test sets. We will train our algorithm on the training set and then test it on the test set.
-Let's do some exploratory data analysis. 
+We will first split the data into training, validation and test sets. We will train our algorithm on the training set and then apply it on the validation set.
 
-Let's look at a histogram of the house price for the training set.
 
+{% highlight ruby %}
+You are here
+{% endhighlight %}
