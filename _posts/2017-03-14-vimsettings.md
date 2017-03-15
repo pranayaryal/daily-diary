@@ -325,7 +325,10 @@ Then type ,ev to go into your .vimrc file and then type
 
 This should install all your plugins
 
-## 6. Download ctags, then type this in the project you want to be searchable. You might have to create a tags/ directory in your project
+## 6. Download ctags
+Then type this in the project you want to be searchable. You might have to create a tags/ directory in your project
 {% highlight ruby %}
 ctags -R
 {% endhighlight %}
+
+I hope this helps
