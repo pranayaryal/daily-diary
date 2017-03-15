@@ -223,4 +223,13 @@ autocmd FileType php noremap <leader>nf :call PhpExpandClass()<CR>
 
 {% endhighlight %}
 
+## 4. Install Vundle which is a package manager for installing vim plugins
+{% highlight ruby %}
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+{% endhighlight %}
 
+## 5. Make a file inside ~/.vim named plugins.vim
+{% highlight ruby %}
+cd ~/.vim
+touch plugins.vim
+{% endhighlight %}
