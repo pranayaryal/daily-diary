@@ -233,3 +233,99 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cd ~/.vim
 touch plugins.vim
 {% endhighlight %}
+
+
+## 6. Your ~/.vim/plugins.vim file
+Type this inside your plugins.vim file
+{% highlight ruby %}
+sudo vim ~/.vim/plugins.vim
+{% endhighlight %}
+
+Paste this code there
+{% highlight ruby %}
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'tpope/vim-vinegar'
+
+Plugin 'scrooloose/nerdtree'
+
+Plugin 'ctrlpvim/ctrlp.vim'
+
+Plugin 'rking/ag.vim'
+
+Plugin 'skwp/greplace.vim'
+
+Plugin 'tpope/vim-surround'
+
+Plugin 'StanAngeloff/php.vim'
+
+Plugin 'arnaud-lb/vim-php-namespace'
+
+Plugin 'honza/vim-snippets'
+
+Plugin 'tobyS/vmustache'
+
+Plugin 'tobyS/pdv'
+
+Plugin 'SirVer/ultisnips'
+
+Plugin 'scrooloose/nerdcommenter'
+
+Plugin 'tpope/vim-fugitive'
+
+Plugin 'Valloric/YouCompleteMe'
+
+Plugin 'terryma/vim-multiple-cursors'
+
+"Python syntax stuff
+Plugin 'nvie/vim-flake8'
+Plugin 'vim-scripts/Pydiction'
+Plugin 'vim-scripts/indentpython.vim'
+Plugin 'scrooloose/syntastic'
+
+
+"code folding
+Plugin 'tmhedberg/SimpylFold'
+
+
+"Colors
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'jnurmine/Zenburn'
+Plugin 'sjl/badwolf'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+
+filetype plugin indent on    " required
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
+
+{% endhighlight %}
+
+Then type ,ev to go into your .vimrc file and then type
+{% highlight ruby %}
+:PluginInstall
+{% endhighlight %}
+
+This should install all your plugins
+
+## 6. Download ctags, then type this in the project you want to be searchable. You might have to create a tags/ directory in your project
+{% highlight ruby %}
+ctags -R
+{% endhighlight %}
