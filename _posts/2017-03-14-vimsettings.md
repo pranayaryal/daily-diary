@@ -1,10 +1,9 @@
 ---
 layout: post
 title:  Configuring Vim
-image: histPrice.png
 ---
 
-1. Making Vim Prettier
+## Making Vim Prettier
 These are some of the settings to configure Vim to make it look prettier. And then wget atom-dark-256.vim
 
 Inside your .vim directory make a folder named 'colors'
