@@ -3,6 +3,7 @@ layout: post
 title:  "Predicting Housing Price (Boston Housing Dataset)"
 image: histPrice.png
 ---
+An attempt at using different regression algorithms to predict the price of houses in Boston using the Boston dataset from scikit learn library.
 
 This dataset is from scikit-learn library of python. We wil use various techniques for linear regression. We will use the Ridge Regression
 and Lasso and compare them
