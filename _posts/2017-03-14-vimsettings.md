@@ -3,6 +3,8 @@ layout: post
 title:  Configuring Vim
 ---
 
+These are steps you can take to configure your vim to make it look prettier and improve file browsing. You will also find tips on how to set up your .vimrc file plugins.vim file.
+
 ## 1. Making Vim Prettier
 These are some of the settings to configure Vim to make it look prettier. And then wget atom-dark-256.vim
 
