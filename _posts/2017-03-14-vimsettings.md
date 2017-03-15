@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Predicting Housing Price (Boston Housing Dataset)"
+title:  Configuring Vim
 image: histPrice.png
 ---
 
