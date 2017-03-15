@@ -33,10 +33,10 @@ noremap % v%
 syntax enable
 
 
-set backspace=indent,eol,start                                    "Make backspace behave like every other editor"
-let mapleader = ',' 						  "The default leader is \ but a comma is much better"
-set nonumber							  "Let's activate line numbers."
-set noerrorbells visualbell t_vb=                                 "No bells"
+set backspace=indent,eol,start                                    
+let mapleader = ',' 						  
+set nonumber							  
+set noerrorbells visualbell t_vb=                                 
 set tabstop=8
 set autowriteall
 set expandtab
