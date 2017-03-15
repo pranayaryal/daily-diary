@@ -3,7 +3,7 @@ layout: post
 title:  Configuring Vim
 ---
 
-## Making Vim Prettier
+## 1. Making Vim Prettier
 These are some of the settings to configure Vim to make it look prettier. And then wget atom-dark-256.vim
 
 Inside your .vim directory make a folder named 'colors'
@@ -16,7 +16,7 @@ wget https://raw.githubusercontent.com/gosukiwi/vim-atom-dark/master/colors/atom
 {% endhighlight %}
 
 
-## Your .vimrc file
+## 2. Your .vimrc file
 Copy and paste this into your ~/.vimrc file
 {% highlight ruby %}
 
