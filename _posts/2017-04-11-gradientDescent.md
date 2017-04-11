@@ -8,7 +8,7 @@ These are steps you can take to configure your vim to make it look prettier and 
 
 
 {% highlight ruby %}
-code snippet here
+  code snippet here
 {% endhighlight %}
 
 
