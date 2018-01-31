@@ -5,7 +5,7 @@ image: histPrice.png
 ---
 An attempt at using different regression algorithms to predict the price of houses in Boston using the Boston dataset from scikit learn library.
 
-The code can be found [here](https://www.github.com/pranayaryal/decisionTree)
+The code can be found <a href="https://www.github.com/pranayaryal/decisionTree" target="_blank">here</a>
 
 This dataset is from scikit-learn library of python. We wil use various techniques for linear regression. We will use the Ridge Regression
 and Lasso and compare them
