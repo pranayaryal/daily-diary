@@ -22,17 +22,23 @@ wget https://raw.githubusercontent.com/gosukiwi/vim-atom-dark/master/colors/atom
 Paste this code inside your .vimrc file
 https://gist.githubusercontent.com/pranayaryal/95cd000b91c7b841cbf0b63d82f7f588/raw/577817f3222f976642bdac9da2812c9497640869/new_gist_file_0
 
-## 5. Make a file inside ~/.vim named plugins.vim
+## 3. Make a file inside ~/.vim named plugins.vim
 {% highlight ruby %}
 cd ~/.vim
 touch plugins.vim
 {% endhighlight %}
 
+## 4. Install a Plugin Manager like Vundle
+Type this in your terminal
+{% highlight ruby %}
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+{% endhighlight %}
 
-## 6. Your ~/.vim/plugins.vim file
+
+## 5. Your ~/.vim/plugins.vim file
 Paste this code inside plugins.vim
 https://gist.githubusercontent.com/pranayaryal/010cdee74b705092fb0b516fe880e472/raw/d1546ae6611e80e195d389859e5700effa24833f/new_gist_file_0
-Then install the plugins using this command inside the vim
+Then install the plugins using this command inside the ~/.vim/plugins.vim file
 {% highlight ruby %}
 :PluginInstall
 {% endhighlight %}
