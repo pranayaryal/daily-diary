@@ -32,6 +32,12 @@ Let us create a function for **performance metric** which takes the labels and t
 def performance_metric(label, predictions):
   return metrics.mean_squared_error(label, prediction)
 ```
+
+This code in numpy will generate incremental subset sizes for the length of the training set. This is to calculate the error based on training-set size.
+```
+sizes = np.round(np.linspace(1, len(X_train), 50))
+```
+
 Let us create another function to plot the learning curve for different tree depths and training and testing sizes.
 ```
 def learning_curve(depth, X_train, y_train, X_test, y_test):
@@ -59,10 +65,7 @@ def learning_curve(depth, X_train, y_train, X_test, y_test):
     # Plot learning curve graph
     learning_curve_graph(sizes, train_err, test_err)
 ```
-This code in numpy will generate incremental subset sizes for the length of the training set. This is to calculate the error based on training-set size.
-```
-sizes = np.round(np.linspace(1, len(X_train), 50))
-```
+
 
 
 
