@@ -21,6 +21,7 @@ wget https://raw.githubusercontent.com/gosukiwi/vim-atom-dark/master/colors/atom
 ## 2. Your .vimrc file
 Paste this code inside your .vimrc file
 https://gist.githubusercontent.com/pranayaryal/95cd000b91c7b841cbf0b63d82f7f588/raw/577817f3222f976642bdac9da2812c9497640869/new_gist_file_0
+[press here](https://gist.githubusercontent.com/pranayaryal/95cd000b91c7b841cbf0b63d82f7f588/raw/577817f3222f976642bdac9da2812c9497640869/new_gist_file_0)
 
 ## 3. Make a file inside ~/.vim named plugins.vim
 {% highlight ruby %}
