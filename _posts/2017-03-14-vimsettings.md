@@ -33,6 +33,11 @@ Type this in your terminal
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 {% endhighlight %}
 
+```
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+
+
 
 ## 5. Your ~/.vim/plugins.vim file
 Paste this code inside plugins.vim
