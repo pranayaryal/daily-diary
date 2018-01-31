@@ -59,6 +59,8 @@ def learning_curve(depth, X_train, y_train, X_test, y_test):
     # Plot learning curve graph
     learning_curve_graph(sizes, train_err, test_err)
 ```
+This code in numpy will generate different sizes for the length of the training state
+```sizes = np.round(np.linspace(1, len(X_train), 50))```
 
 
 
