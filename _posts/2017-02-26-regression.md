@@ -27,6 +27,7 @@ and Lasso and compare them
 The target variable is the price of the house.
 
 Let us create a function for performance metric which takes the labels and the predictions as the arguments and returns the mean squared error using the metrics library from sklearn
+
 ```
 def performance_metric(label, predictions):
   return metrics.mean_squared_error(label, prediction)
