@@ -26,13 +26,39 @@ and Lasso and compare them
 
 The target variable is the price of the house.
 
-Let us create a function for performance metric which takes the labels and the predictions as the arguments and returns the mean squared error using the metrics library from sklearn
+Let us create a function for **performance metric** which takes the labels and the predictions as the arguments and returns the mean squared error using the metrics library from sklearn
 
 ```
 def performance_metric(label, predictions):
   return metrics.mean_squared_error(label, prediction)
 ```
+Let us create another function to plot the learning curve for different tree depths and training and testing sizes.
+```
+def learning_curve(depth, X_train, y_train, X_test, y_test):
+    """Calculate the performance of the model after a set of training data."""
 
+    # We will vary the training set size so that we have 50 different sizes
+    sizes = np.round(np.linspace(1, len(X_train), 50))
+    train_err = np.zeros(len(sizes))
+    test_err = np.zeros(len(sizes))
+
+    print "Decision Tree with Max Depth: "
+    print depth
+
+    for i, s in enumerate(sizes):
+
+        # Create and fit the decision tree regressor model
+        regressor = DecisionTreeRegressor(max_depth=depth)
+        regressor.fit(X_train[:s], y_train[:s])
+
+        # Find the performance on the training and testing set
+        train_err[i] = performance_metric(y_train[:s], regressor.predict(X_train[:s]))
+        test_err[i] = performance_metric(y_test, regressor.predict(X_test))
+
+
+    # Plot learning curve graph
+    learning_curve_graph(sizes, train_err, test_err)
+```
 
 
 
